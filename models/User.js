@@ -17,6 +17,11 @@ const userSchema = new mongoose.Schema(
       minlength: 8,
       select: false,
     },
+    UserId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      default: null,
+    }
   },
   { timestamps: true },
 );
