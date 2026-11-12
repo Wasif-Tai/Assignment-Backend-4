@@ -31,4 +31,4 @@ const ideaSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-export const Idea = mongoose.model("Idea", ideaSchema);
+export const Idea = mongoose.model("Idea", ideaSchema); 
